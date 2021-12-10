@@ -10,7 +10,7 @@
 
 <Defs>
 
-  <BodyDef>
+  <BodyDef Name = "PW_HeadPokemon">
     <defName>PW_HeadPokemon</defName>
     <label>head pokemon</label>
     <corePart>
@@ -367,7 +367,7 @@
     </corePart>
   </BodyDef>
 
-  <BodyDef>
+  <BodyDef Name = "PW_HeadPokemonWithLegs">
     <defName>PW_HeadPokemonWithLegs</defName>
     <label>head pokemon</label>
     <corePart>

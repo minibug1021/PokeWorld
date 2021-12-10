@@ -10,7 +10,7 @@
 
 <Defs>
 
-  <BodyDef>
+  <BodyDef Name = "PW_QuadrupedPokemonWithPaws">
     <defName>PW_QuadrupedPokemonWithPaws</defName>
     <label>quadruped Pokemon</label>
     <corePart>

@@ -17,3 +17,8 @@ D:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PokeWorld\Source\Pok
 D:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PokeWorld\Source\PokeWorld\PokeWorld\obj\Debug\PokeWorld.csproj.CoreCompileInputs.cache
 D:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PokeWorld\Source\PokeWorld\PokeWorld\obj\Debug\PokeWorld.csproj.CopyComplete
 D:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PokeWorld\Source\PokeWorld\PokeWorld\obj\Debug\PokeWorld.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PokeWorld\Assemblies\PokeWorld.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PokeWorld\Source\PokeWorld\PokeWorld\obj\Debug\PokeWorld.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PokeWorld\Source\PokeWorld\PokeWorld\obj\Debug\PokeWorld.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PokeWorld\Source\PokeWorld\PokeWorld\obj\Debug\PokeWorld.csproj.CopyComplete
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PokeWorld\Source\PokeWorld\PokeWorld\obj\Debug\PokeWorld.dll

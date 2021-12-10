@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <BodyDef ParentName = "PW_QuadrupedPokemonWithPaws"> 
+    <defName>PW_BulbasaurBody</defName>
+	<label>Bulbasaur Body</label>
+	<corePart>
+	  <def>Body</def>
+	  <parts>
+        <li>
+          <def>PW_BulbasaurSeed</def>
+          <coverage>0.35</coverage>
+          <depth>Outside</depth>
+        </li>
+	  </parts>
+    </corePart>
+  </BodyDef>
+
+  <BodyDef ParentName = "PW_QuadrupedPokemonWithPaws">
+    <defName>PW_IvysaurBody</defName>
+	<label>Ivysaur Body</label>
+	<corePart>
+	  <def>Body</def>
+	  <parts>
+        <li>
+          <def>PW_BulbasaurSeed</def>
+		  <customLabel>flower bulb</customLabel>
+          <coverage>0.35</coverage>
+          <depth>Outside</depth>
+        </li>
+        <li>
+          <def>PW_Leaf</def>
+		  <customLabel>front left leaf</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Outside</depth>
+        </li>
+        <li>
+          <def>PW_Leaf</def>
+		  <customLabel>front right leaf</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Outside</depth>
+        </li>
+        <li>
+          <def>PW_Leaf</def>
+		  <customLabel>back left leaf</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Outside</depth>
+        </li>
+        <li>
+          <def>PW_Leaf</def>
+		  <customLabel>back right leaf</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Outside</depth>
+        </li>
+	  </parts>
+    </corePart>
+  </BodyDef>
+
+  <BodyDef ParentName = "PW_QuadrupedPokemonWithPaws">
+    <defName>PW_VenusaurBody</defName>
+	<label>Venusaur Body</label>
+	<corePart>
+	  <def>Body</def>
+	  <parts>
+        <li>
+          <def>PW_Trunk</def>
+		  <customLabel>flower stem</customLabel>
+          <coverage>0.10</coverage>
+          <depth>Outside</depth>
+          <parts>
+            <li>
+              <def>PW_Leaf</def>
+              <customLabel>left front petal</customLabel>
+              <coverage>0.03</coverage>
+            </li>
+            <li>
+              <def>PW_Leaf</def>
+              <customLabel>left middle petal</customLabel>
+              <coverage>0.03</coverage>
+            </li>
+            <li>
+              <def>PW_Leaf</def>
+              <customLabel>left back petal</customLabel>
+              <coverage>0.03</coverage>
+            </li>
+            <li>
+              <def>PW_Leaf</def>
+              <customLabel>right front petal</customLabel>
+              <coverage>0.03</coverage>
+            </li>
+            <li>
+              <def>PW_Leaf</def>
+              <customLabel>right middle petal</customLabel>
+              <coverage>0.03</coverage>
+            </li>
+            <li>
+              <def>PW_Leaf</def>
+              <customLabel>right back petal</customLabel>
+              <coverage>0.03</coverage>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>PW_Leaf</def>
+		  <customLabel>left leaf</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Outside</depth>
+        </li>
+        <li>
+          <def>PW_Leaf</def>
+		  <customLabel>right leaf</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Outside</depth>
+        </li>
+        <li>
+          <def>PW_Leaf</def>
+		  <customLabel>front leaf</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Outside</depth>
+        </li>
+        <li>
+          <def>PW_Leaf</def>
+		  <customLabel>back leaf</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Outside</depth>
+        </li>
+	  </parts>
+    </corePart>
+  </BodyDef>
+
+  <BodyDef ParentName = "PW_HeadPokemonWithLegs">
+    <defName>PW_BoldoreBody</defName>
+	<label>Boldore Body</label>
+	<corePart>
+	  <def>PW_LevitatingOrMovingHead</def>
+	  <parts>
+        <li>
+          <def>Leg</def>
+          <customLabel>back leg</customLabel>
+          <coverage>0.2</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>Femur</def>
+              <customLabel>left femur</customLabel>
+              <coverage>0.1</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>Tibia</def>
+              <customLabel>left tibia</customLabel>
+              <coverage>0.1</coverage>
+              <depth>Inside</depth>
+            </li>
+            <li>
+              <def>Foot</def>
+              <customLabel>left foot</customLabel>
+              <coverage>0.2</coverage>
+            </li>
+          </parts>
+        </li>
+	  </parts>
+    </corePart>
+  </BodyDef>
+
+  <BodyDef ParentName = "PW_HeadPokemon">
+    <defName>PW_WoobatBody</defName>
+	<label>Woobat Body</label>
+	<corePart>
+	  <def>PW_LevitatingOrMovingBody</def>
+	  <parts>
+        <li>
+          <def>PW_Wing</def>
+          <coverage>0.20</coverage>
+          <depth>Outside</depth>
+        </li>
+	  </parts>
+    </corePart>
+  </BodyDef>
+ 
+  <BodyDef ParentName = "PW_HeadPokemon">
+    <defName>PW_TympoleBody</defName>
+	<label>Tympole Body</label>
+	<corePart>
+	  <def>PW_LevitatingOrMovingBody</def>
+	  <parts>
+      	<li>
+          <def>Tail</def>
+          <coverage>0.2</coverage>
+          <height>Bottom</height>
+        </li>
+	  </parts>
+    </corePart>
+  </BodyDef>
+
+  <BodyDef ParentName = "PW_InsectPokemonWith6Legs">
+    <defName>PW_VenipedeBody</defName>
+	<label>Venipede Body</label>
+	<corePart>
+	  <def>Shell</def>
+	  <parts>
+        <li>
+          <def>InsectLeg</def>
+          <customLabel>second middle left leg</customLabel>
+          <coverage>0.06</coverage>
+          <height>Bottom</height>
+        </li>
+        <li>
+          <def>InsectLeg</def>
+          <customLabel>second middle right leg</customLabel>
+          <coverage>0.06</coverage>
+          <height>Bottom</height>
+        </li>
+	  </parts>
+    </corePart>
+  </BodyDef>
+
+  <BodyDef ParentName = "PW_QuadrupedPokemonWithPaws">
+    <defName>PW_ZweilousBody</defName>
+    <label>Zweilous Body</label>
+    <corePart>
+      <def>Body</def>
+      <parts>
+        <li>
+          <def>Head</def>
+          <customLabel>second head</customLabel>
+          <coverage>0.333</coverage>
+          <groups>
+            <li>HeadAttackTool</li>
+          </groups>
+          <parts>
+            <li>
+              <def>Skull</def>
+              <customLabel>second head skull</customLabel>
+              <coverage>0.18</coverage>
+              <depth>Inside</depth>
+              <parts>
+                <li>
+                  <def>Brain</def>
+                  <customLabel>second head brain</customLabel>
+                  <coverage>0.7</coverage>
+                </li>
+              </parts>
+            </li>
+            <li>
+              <def>Eye</def>
+              <customLabel>second head left eye</customLabel>
+              <coverage>0.12</coverage>
+            </li>
+            <li>
+              <def>Eye</def>
+              <customLabel>second head right eye</customLabel>
+              <coverage>0.12</coverage>
+            </li>
+            <li>
+              <def>Ear</def>
+              <customLabel>second head left ear</customLabel>
+              <coverage>0.08</coverage>
+            </li>
+            <li>
+              <def>Ear</def>
+              <customLabel>second head right ear</customLabel>
+              <coverage>0.08</coverage>
+            </li>
+            <li>
+              <def>Nose</def>
+              <customLabel>second head nose</customLabel>
+              <coverage>0.1</coverage>
+            </li>
+            <li>
+              <def>AnimalJaw</def>
+              <customLabel>second head jaw</customLabel>
+              <coverage>0.1</coverage>
+              <groups>
+                <li>Teeth</li>
+              </groups>
+		    </li>
+		  </parts>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+
+</Defs>
+
+

@@ -1,9 +1,7 @@
-<?xml version="1.0" encoding="utf-8" ?>
-
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <BodyPartDef>
-    <defName>PW_LevitatingOrMovingBody</defName>
+    <defName>PW_LevitatingOrMovingBody</defName> 
     <label>body</label>
     <hitPoints>40</hitPoints>
     <skinCovered>true</skinCovered>
@@ -11,7 +9,6 @@
       <li>MovingLimbCore</li>
     </tags>
   </BodyPartDef>
-
   <BodyPartDef>
     <defName>PW_LevitatingOrMovingHead</defName>
     <label>head</label>
@@ -21,7 +18,6 @@
       <li>MovingLimbCore</li>
     </tags>
   </BodyPartDef>
-
   <BodyPartDef>
     <defName>PW_Pincer</defName>
     <label>pincer</label>
@@ -32,7 +28,6 @@
       <li>ManipulationLimbCore</li>
     </tags>
   </BodyPartDef>
-
   <BodyPartDef>
     <defName>PW_Wing</defName>
     <label>wing</label>
@@ -43,7 +38,6 @@
       <li>MovingLimbCore</li>
     </tags>
   </BodyPartDef>
-
   <BodyPartDef>
     <defName>PW_InsectWing</defName>
     <label>wing</label>
@@ -54,7 +48,6 @@
       <li>MovingLimbCore</li>
     </tags>
   </BodyPartDef>
-
   <BodyPartDef>
     <defName>PW_Fin</defName>
     <label>fin</label>
@@ -65,7 +58,6 @@
       <li>MovingLimbCore</li>
     </tags>
   </BodyPartDef>
-
   <BodyPartDef>
     <defName>PW_Gill</defName>
     <label>gill</label>
@@ -75,7 +67,6 @@
       <li>BreathingSource</li>
     </tags>
   </BodyPartDef>
-
   <BodyPartDef>
     <defName>PW_Tentacle</defName>
     <label>tentacle</label>
@@ -87,5 +78,29 @@
       <li>ManipulationLimbCore</li>
     </tags>
   </BodyPartDef>
-
+  <BodyPartDef>
+    <defName>PW_BulbasaurSeed</defName>
+    <label>seed</label>
+    <hitPoints>20</hitPoints>
+    <skinCovered>false</skinCovered>
+    <bleedRate>0.3</bleedRate>
+    <frostbiteVulnerability>1.5</frostbiteVulnerability>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>PW_Leaf</defName>
+    <label>leaf</label>
+    <hitPoints>5</hitPoints>
+    <skinCovered>false</skinCovered>
+    <bleedRate>0</bleedRate>
+	<alive>false</alive>
+    <frostbiteVulnerability>2</frostbiteVulnerability>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>PW_Trunk</defName>
+    <label>trunk</label>
+    <hitPoints>15</hitPoints>
+    <skinCovered>false</skinCovered>
+    <bleedRate>0.3</bleedRate>
+    <frostbiteVulnerability>1.5</frostbiteVulnerability>
+  </BodyPartDef>
 </Defs>

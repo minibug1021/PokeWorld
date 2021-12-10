@@ -11,7 +11,6 @@ namespace PokeWorld
 {
 	public sealed class PokedexManager : WorldComponent
 	{
-
 		private Dictionary<PawnKindDef, PokemonPokedexState> pokedex = new Dictionary<PawnKindDef, PokemonPokedexState>();
 		public int TotalSeen()
         {
@@ -51,7 +50,7 @@ namespace PokeWorld
 				pokedex.Add(allDef, PokemonPokedexState.None);
 			}
 		}
-        public override void ExposeData()
+		public override void ExposeData()
 		{
 			Scribe_Collections.Look(ref pokedex, "PW_pokedex", LookMode.Def, LookMode.Value);
 		}
@@ -67,7 +66,12 @@ namespace PokeWorld
 		}
 		public void AddPokemonKindSeen(PawnKindDef pawnKind)
 		{
-			if(pawnKind.race.HasComp(typeof(CompPokemon)) && pokedex[pawnKind] == PokemonPokedexState.None)
+			//foreach (KeyValuePair<PawnKindDef, PokemonPokedexState> kvp in pokedex)
+            //{
+			//	Log.Message("Key = " + kvp.Key + ", Value = " + kvp.Value);
+			//}
+
+			if (pawnKind.race.HasComp(typeof(CompPokemon)) && pokedex[pawnKind] == PokemonPokedexState.None)
             {
 				pokedex[pawnKind] = PokemonPokedexState.Seen;
 			}
