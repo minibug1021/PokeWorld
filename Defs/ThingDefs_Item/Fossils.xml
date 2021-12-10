@@ -98,6 +98,26 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>   
   </ThingDef>
+  
+  <ThingDef ParentName="PW_FossilBase">
+    <defName>PW_CoverFossil</defName>
+    <label>Cover Fossil</label>
+    <description>A fossil from an ancient Pokémon that lived on the land. It appears to be part of a head.</description>
+    <graphicData>
+      <texPath>Things/Item/Fossils/Cover_Fossil</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>   
+  </ThingDef>
+  
+  <ThingDef ParentName="PW_FossilBase">
+    <defName>PW_PlumeFossil</defName>
+    <label>Plume Fossil</label>
+    <description>A fossil from an ancient Pokémon that lived on the land. It appears to be part of a head.</description>
+    <graphicData>
+      <texPath>Things/Item/Fossils/Plume_Fossil</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>   
+  </ThingDef>
 
   <ThingDef ParentName="PW_FossilBase">
     <defName>PW_OddKeystone</defName>
@@ -197,6 +217,24 @@
     <description>An Armor Fossil being revived.</description>  
     <graphicData>
       <texPath>Things/Item/Fossils/Armor_Fossil</texPath>
+    </graphicData>
+  </ThingDef>
+  
+  <ThingDef ParentName="PW_UnfinishedFossilBase">
+  	<defName>PW_UnfinishedCoverFossil</defName>
+    <label>unfinished Cover Fossil</label>
+    <description>An Cover Fossil being revived.</description>  
+    <graphicData>
+      <texPath>Things/Item/Fossils/Cover_Fossil</texPath>
+    </graphicData>
+  </ThingDef>
+  
+  <ThingDef ParentName="PW_UnfinishedFossilBase">
+  	<defName>PW_UnfinishedPlumeFossil</defName>
+    <label>unfinished Plume Fossil</label>
+    <description>An Plume Fossil being revived.</description>  
+    <graphicData>
+      <texPath>Things/Item/Fossils/Plume_Fossil</texPath>
     </graphicData>
   </ThingDef>
 

@@ -224,6 +224,64 @@
       <PW_Shieldon>1</PW_Shieldon>
     </products>
   </RecipeDef>
+  
+  <RecipeDef ParentName="PW_ResurrectPokemonFossil">
+    <defName>PW_ResurrectArmorFossil</defName>
+    <label>resurrect Cover Fossil</label>
+    <unfinishedThingDef>PW_UnfinishedCoverFossil</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PW_CoverFossil</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PW_CoverFossil</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>PW_CoverFossil</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+    <products>
+      <PW_Tirtouga>1</PW_Tirtouga>
+    </products>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="PW_ResurrectPokemonFossil">
+    <defName>PW_ResurrectPlumeFossil</defName>
+    <label>resurrect Plume Fossil</label>
+    <unfinishedThingDef>PW_UnfinishedPlumeFossil</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PW_PlumeFossil</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>PW_PlumeFossil</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>PW_PlumeFossil</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+    <products>
+      <PW_Archen>1</PW_Archen>
+    </products>
+  </RecipeDef>
 
   <RecipeDef ParentName="PW_ResurrectPokemonFossil">
     <defName>PW_OpenOddKeyStone</defName>

@@ -124,7 +124,12 @@ namespace PokeWorld
 					fossils.Remove(DefDatabase<ThingDef>.GetNamed("PW_SkullFossil"));
 					fossils.Remove(DefDatabase<ThingDef>.GetNamed("PW_ArmorFossil"));
 				}
-                if (fossils.Any())
+				if (!PokeWorldSettings.allowGen5)
+				{
+					fossils.Remove(DefDatabase<ThingDef>.GetNamed("PW_CoverFossil"));
+					fossils.Remove(DefDatabase<ThingDef>.GetNamed("PW_PlumeFossil"));
+				}
+				if (fossils.Any())
                 {
 					return fossils.RandomElement();
 				}					
